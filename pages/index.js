@@ -26,82 +26,82 @@ export const text = Katibeh({
 export default function Home() {
   return (
     <div className={`min-h-screen min-w-full flex flex-row ${text.className}`}>
-      <div className="w-[22.5%] bg-[#CED7E6] shadow-3xl"></div>
+      <div className="w-[22.5%] bg-[#CED7E6] z-10 shadow-3xl"></div>
       {/* LEFT */}
-      <div className="w-[20%] bg-[#333740]">
-        <div className="flex flex-col gap-[3.5rem]">
-          <Image src={selfie} alt="selfie" w={300} height={300} className="mr-auto ml-auto mt-[2rem] p-4 rounded-full z-10"/>
-          <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex">
-            <div className="flex flex-row items-center gap-[3.25rem]">
-              <FaMailBulk size={40} className="text-[#333740] mr-auto"/>
-              <p className="text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
-                Contact
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
-            <MdLocationOn size={40}/>
-            <div>Manila</div>
-          </div>
-          <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
-            <FaPhone size={40}/>
-            <div>+639563852755</div>
-          </div>
-          <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
-            <MdMail size={40}/>
-            <div>vjtvince@gmail.com</div>
-          </div>
-
-          <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex mt-[1rem]">
-            <div className="flex flex-row items-center gap-[4.25rem]">
-              <FaCog size={40} className="text-[#333740] mr-auto"/>
-              <div className="text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
-                Skills
+        <div className="w-[20%] bg-[#333740]">
+          <div className="flex flex-col gap-[3.5rem]">
+            <Image src={selfie} alt="selfie" w={300} height={300} className="mr-auto ml-auto mt-[2rem] p-4 rounded-full z-10"/>
+            <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex">
+              <div className="flex flex-row items-center gap-[3.25rem]">
+                <FaMailBulk size={40} className="text-[#333740] mr-auto"/>
+                <p className="text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
+                  Contact
+                </p>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col text-white text-[2rem] px-[3rem] gap-2 mr-auto items-center">
-            <ul className="list-disc ml-[2rem]">
-              <li>User Interface Design</li>
-              <li>User Experience Design</li>
-              <li>Front-end Development</li>
-              <li>Quality Assurance</li>
-            </ul>
-          </div>
+            <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
+              <MdLocationOn size={40}/>
+              <div>Manila</div>
+            </div>
+            <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
+              <FaPhone size={40}/>
+              <div>+639563852755</div>
+            </div>
+            <div className="flex flex-row text-white text-[2rem] px-5 gap-2 mr-auto items-center">
+              <MdMail size={40}/>
+              <div>vjtvince@gmail.com</div>
+            </div>
 
-          <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex mt-[1rem]">
-            <div className="flex flex-row items-center gap-[2.5rem]">
-              <FaCode size={40} className="text-[#333740] mr-auto"/>
-              <div className="text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
-                Languages
+            <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex mt-[1rem]">
+              <div className="flex flex-row items-center gap-[4.25rem]">
+                <FaCog size={40} className="text-[#333740] mr-auto"/>
+                <div className="flex items-center text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
+                  Skills
+                </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col text-white text-[2rem] px-[2rem] gap-2 mr-auto items-center mb-[.5rem]">
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-col text-white text-[2rem] px-[3rem] gap-2 mr-auto items-center">
               <ul className="list-disc ml-[2rem]">
-                <li>Html5</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>Javascript</li>
+                <li>User Interface Design</li>
+                <li>User Experience Design</li>
+                <li>Front-end Development</li>
+                <li>Quality Assurance</li>
               </ul>
-              <ul className="list-disc ml-[2rem]">
-                <li>C++</li>
-                <li>MySQL</li>
-                <li>ReactJS</li>
-                <li>WordPress</li>
-              </ul>
+            </div>
+
+            <div className="px-2 bg-[#F9CB1B] rounded-r-full w-[80%] flex mt-[1rem]">
+              <div className="flex flex-row items-center gap-[2.5rem]">
+                <FaCode size={40} className="text-[#333740] mr-auto"/>
+                <div className="text-[#333740] font-bold text-[2.5rem] align-middle mt-auto mb-auto uppercase">
+                  Languages
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col text-white text-[2rem] px-[2rem] gap-2 mr-auto items-center mb-[.5rem]">
+              <div className="flex flex-row gap-10">
+                <ul className="list-disc ml-[2rem]">
+                  <li>Html5</li>
+                  <li>CSS</li>
+                  <li>Python</li>
+                  <li>Javascript</li>
+                </ul>
+                <ul className="list-disc ml-[2rem]">
+                  <li>C++</li>
+                  <li>MySQL</li>
+                  <li>ReactJS</li>
+                  <li>WordPress</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       {/* RIGHT */}
 
       <div className={`w-[35%] ${styles.customShadow}`}>
         <div className="flex flex-col">
-            <div className="flex flex-col mt-[3rem] p-2 pb-[3.4rem] w-full bg-[#F9CB1B]">
-              <span className="text-[5.5rem] text-[#333740] ml-[2rem] mr-auto uppercase">Vince Jian T. Tria</span>
-              <span className={`font-bold text-[3rem] text-white ml-[2rem] mr-auto ${alone.className}`}>Web Developer</span>
+            <div className="relative right-[13rem] flex flex-col mt-[3.8rem] p-2 pb-[2rem] w-[874px] bg-[#F9CB1B]">
+              <span className="text-[5.5rem] text-[#333740] ml-[15rem] mr-auto uppercase">Vince Jian T. Tria</span>
+              <span className={`font-bold text-[3rem] text-white ml-[15rem] mr-auto ${alone.className}`}>Web Developer</span>
             </div>
             <div className="flex flex-col">
               <div className="p-[.5rem] px-[1rem] bg-[#333740]">
@@ -159,7 +159,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`w-[22.5%] bg-[#CED7E6]`}></div>
+      <div className={`w-[22.5%] bg-[#CED7E6] z-10`}></div>
     </div>
   )
 }
